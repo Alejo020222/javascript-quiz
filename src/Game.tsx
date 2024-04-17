@@ -1,13 +1,11 @@
 import {
   Card,
   IconButton,
-  // IconButton,
   List,
   ListItem,
   ListItemButton,
   ListItemText,
   Stack,
-  // Stack,
   Typography,
 } from "@mui/material";
 import { useQuestionStore } from "./store/quetions";
@@ -77,7 +75,6 @@ export const Game = () => {
   );
 
   const cuestionInfo = question[currtentQuestion];
-  console.log(question);
 
   return (
     <>
